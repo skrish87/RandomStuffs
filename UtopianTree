@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class UtopianTree {    
     
-    public static int getHeight(int numOfGrowthCycles) {    	
+    public static int getHeight(int numOfGrowthCycles){    	
     	
     	int treeHeight = 1;
     	if (numOfGrowthCycles <= 0)
