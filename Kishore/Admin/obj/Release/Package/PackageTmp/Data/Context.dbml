@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="kishore_gallery" Class="Context" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=54.169.41.78;Initial Catalog=kishore_gallery;Persist Security Info=True;User ID=kishore" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="kishore_galleryConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="kishore.Albums" Member="Albums">
+    <Type Name="Album">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="PhotoUrl" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Association Name="Album_Photo" Member="Photos" ThisKey="Id" OtherKey="AlbumId" Type="Photo" />
+    </Type>
+  </Table>
+  <Table Name="kishore.Photos" Member="Photos">
+    <Type Name="Photo">
+      <Column Name="AlbumId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Association Name="Album_Photo" Member="Album" ThisKey="AlbumId" OtherKey="Id" Type="Album" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,8 @@
+I:\Kishore\Admin\bin\Admin.dll
+I:\Kishore\Admin\bin\Admin.pdb
+I:\Kishore\Admin\bin\Admin.xml
+I:\Kishore\Admin\obj\Debug\Admin.Resources.resources
+I:\Kishore\Admin\obj\Debug\Admin.vbproj.GenerateResource.Cache
+I:\Kishore\Admin\obj\Debug\Admin.dll
+I:\Kishore\Admin\obj\Debug\Admin.xml
+I:\Kishore\Admin\obj\Debug\Admin.pdb
