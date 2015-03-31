@@ -1,8 +1,0 @@
-I:\Kishore\Admin\bin\Admin.dll
-I:\Kishore\Admin\bin\Admin.pdb
-I:\Kishore\Admin\bin\Admin.xml
-I:\Kishore\Admin\obj\Release\Admin.Resources.resources
-I:\Kishore\Admin\obj\Release\Admin.vbproj.GenerateResource.Cache
-I:\Kishore\Admin\obj\Release\Admin.dll
-I:\Kishore\Admin\obj\Release\Admin.xml
-I:\Kishore\Admin\obj\Release\Admin.pdb
