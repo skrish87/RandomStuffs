@@ -3,7 +3,7 @@ RandomStuffs - Newbie to GitHub trying to showcase my work.
 
 UI Games - My implementation of common games using Javascript.
 
-	- Sudoku: It's a logic-based, combinatorial number-placement puzzle.
+        - Sudoku: It's a logic-based, combinatorial number-placement puzzle.
 
         - Connect Four: It's  is a two-player connection game in which the players first choose a color
               and then take turns dropping colored discs from the top into a seven-column, six-row vertically suspended grid. 
