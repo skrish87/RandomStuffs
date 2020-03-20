@@ -2,25 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 
-## Development server
+# About the Project
+The idea of this project is to understand the concepts of Angular like Binding, Scope, Events, Components, Observables, Services and interacting with Node.js backend within the same project. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The frontend is designed using Bootstrap with responsive web design methods. This will work smoothly in all screen sizes.
 
-## Code scaffolding
+Working with external APIs and how to integrate those with my Angular Application.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Understanding of different Node modules and working with tools like npm, nodemon, webpack etc.
 
 ## Further help
 
