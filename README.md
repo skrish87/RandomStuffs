@@ -19,3 +19,7 @@ AndroidStuffs - Android Code Samples that are tried as part of coursework.
 Problem Solving - Common Problem Solving Questions & Solutions.
 
 Race Project - Java project.
+
+full-stack-angular - A simple Chat app and weather update combined using angular as front-end and Node.js as backend.
+
+Go-Producer-Consumer - A producer consumer problem illustration for understanding golang concepts such as channels, goroutines, methods, structs etc.
