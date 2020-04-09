@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#main {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	transition: all 0.3s ease;
+}
+
+#hotspot {
+	top: 52px;
+	left: 0px;
+	position: absolute;
+	width: 10px;
+	height: 90%;
+	z-index: 4;
+}
+
+#leftMenu {
+	top: 52px;
+	left: 0px;
+	position: absolute;
+	z-index: 2;
+	width: 78px;
+	background-color: #cccccc;
+	height: 373px;
+	border-bottom: solid;
+	border-bottom-color: #666666;
+	border-bottom-width: 3px;
+	border-top: solid;
+	border-top-color: #666666;
+	border-top-width: 3px;
+	border-right: solid;
+	border-right-color: #666666;
+	border-right-width: 3px;
+}
+
+#leftMenuClick {
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 274px;
+	background-color: #cccccc;
+	position: absolute;
+	z-index: 1;
+}
+
+#closeButton {
+	background-image: url(images/close.png);
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	width: 19px;
+	height: 19px;
+}
+
+.icon {
+	background-image: url(images/icon.png);
+	background-repeat: no-repeat;
+	position: relative;
+	padding-bottom: 8px;
+	left: 14px;
+	top: 8px;
+	width: 53px;
+	height: 53px;
+	z-index: 3;
+}
+
+#leftMenuText {
+	left: 83px;
+	width: 162px;
+	height: 35px;
+	background-color: #999999;
+	position: relative;
+	top: 73px;
+	margin-bottom: 26px;
+	z-index: 3;
+}

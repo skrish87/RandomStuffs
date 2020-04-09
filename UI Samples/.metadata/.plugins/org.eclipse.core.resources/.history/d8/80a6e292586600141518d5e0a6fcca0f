@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText android:id="@+id/edit_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/edit_message" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMessage"
+        android:scaleX="12dp"
+        android:scaleY="30dp"
+        android:text="@string/button_one" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_result"
+        android:onClick="sendMessage" 
+        android:id = "@+id/bResult" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_two"
+        android:onClick="sendMessage" 
+        android:id = "@+id/b2" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_three"
+        android:onClick="sendMessage" 
+        android:id = "@+id/b3" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_four"
+        android:onClick="sendMessage" 
+        android:id = "@+id/b4" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_five"
+        android:onClick="sendMessage" 
+        android:id = "@+id/b5" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_six"
+        android:onClick="sendMessage" 
+        android:id = "@+id/b6" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_seven"
+        android:onClick="sendMessage" 
+        android:id = "@+id/b7" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_eight"
+        android:onClick="sendMessage" 
+        android:id = "@+id/b8" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_nine"
+        android:onClick="sendMessage" 
+        android:id = "@+id/b9" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_ten"
+        android:onClick="sendMessage" 
+        android:id = "@+id/b10" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_zero"
+        android:onClick="sendMessage" 
+        android:id = "@+id/b0" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_add"
+        android:onClick="sendMessage" 
+        android:id = "@+id/bPlus" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_subtract"
+        android:onClick="sendMessage" 
+        android:id = "@+id/bMinus" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_multiply"
+        android:onClick="sendMessage" 
+        android:id = "@+id/bMultiply" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_divide"
+        android:onClick="sendMessage" 
+        android:id = "@+id/bDivide" />
+    
+</LinearLayout>

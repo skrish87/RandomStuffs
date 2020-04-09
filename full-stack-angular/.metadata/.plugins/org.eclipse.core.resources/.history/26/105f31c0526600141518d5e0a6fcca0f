@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">Sample</string>
+	<string name="edit_message"></string>
+    <string name="button_result">Result</string>
+    <string name="button_one">Result</string>
+    <string name="button_two">Result</string>
+    <string name="button_three">Result</string>
+    <string name="button_four">Result</string>
+    <string name="button_five">Result</string>
+    <string name="button_six">Result</string>
+    <string name="button_seven">Result</string>
+    <string name="button_eight">Result</string>
+    <string name="button_nine">Result</string>
+    <string name="button_ten">Result</string>
+    <string name="button_zero">Result</string>
+    <string name="button_add">Result</string>
+    <string name="button_subtract">Result</string>
+    <string name="button_multiply">Result</string>
+    <string name="action_divide">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+</resources>

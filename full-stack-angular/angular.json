@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1,
+  "version": 1, 
   "newProjectRoot": "projects",
   "projects": {
     "full-stack-angular": {
@@ -119,10 +119,6 @@
           }
         }
       }
-    }
-  },
-  "defaultProject": "full-stack-angular",
-  "cli": {
-    "analytics": "3f5b5c74-c0e3-4ab0-81f6-572f2825f737"
-  }
+    }},
+  "defaultProject": "full-stack-angular"
 }

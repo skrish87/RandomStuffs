@@ -1,0 +1,19 @@
+/* Control the left side */
+.top {
+  background-color: aliceblue;
+}
+
+.top-left {
+  float: left;
+}
+
+/* Control the right side */
+.top-right {
+  float: right;
+  height: 380px;
+  background-color: cadetblue;
+  overflow-y: scroll;
+}
+
+.bottom {
+}
