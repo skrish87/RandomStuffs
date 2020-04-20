@@ -23,3 +23,5 @@ Race Project - Java project.
 full-stack-angular - A simple Chat app and weather update combined using angular as front-end and Node.js as backend.
 
 Go-Producer-Consumer - A producer consumer problem illustration for understanding golang concepts such as channels, goroutines, methods, structs etc.
+
+todo-app-in-angular - A simple todo app to add and delete todo items using Angular. This project is a work in progress. Backend and other features will be added later.
