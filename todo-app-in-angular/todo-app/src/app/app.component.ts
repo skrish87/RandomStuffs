@@ -1,23 +1,46 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'todo-app';
   todoArray = [];
-
-  addTodo(value) {
-    this.todoArray.push(value);
-    console.log(this.todoArray);
+  constructor(private http: HttpClient) {
   }
-  deleteItem(value) {
-    for (let i = 0 ; i <= this.todoArray.length ; i++){
-      if (value === this.todoArray[i]) {
-        this.todoArray.splice(i, 1);
-      }
+
+  getAllTodoLists() {
+    return this.http.get('http://localhost:3000/')
+      .subscribe((todos: any) => {
+        this.todoArray = todos;
+      });
+  }
+
+  addTodo(todo) {
+    console.log("Adding..");
+    const present = this.todoArray.some(el => el.todo === todo);
+    if (!present) {
+      this.http.post<any>('http://localhost:3000/todo/add', {todo})
+        .subscribe((val: any) => {
+          this.todoArray = val;
+        });
     }
   }
+
+  deleteTodo(todo) {
+    console.log("Deleting..");
+    this.http.post<any>('http://localhost:3000/todo/delete', todo)
+      .subscribe((val: any) => {
+        this.todoArray = val;
+      });
+  }
+
+  ngOnInit() {
+    this.getAllTodoLists();
+  }
+
+
 }

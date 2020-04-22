@@ -26,7 +26,9 @@
       </div>
       <div class="data">
         <ul class="list-instyled">
-          <li *ngFor="let todo of todoArray">{{todo}}<i (click)="deleteItem(todo)" class="material-icons">delete</i></li>
+          <li *ngFor="let todos of todoArray">{{todos.todo}}
+            <i (click)="deleteTodo(todos)" class="material-icons">delete</i>
+          </li>
         </ul>
       </div>
     </form>
